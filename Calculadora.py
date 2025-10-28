@@ -11,6 +11,7 @@ class Calculadora:
         # comentario 4
         # comentario 5
         # comentario 6
+        # Comentario 1 rama uno
         if not (isinstance(a, (int, float)) and isinstance(b, (int, float))):
             raise TypeError('Ambos parámetros deben ser números enteros o flotantes.')
         return a - b
